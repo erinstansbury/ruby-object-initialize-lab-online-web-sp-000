@@ -1,3 +1,5 @@
 class Person
-  attr_writer :name
+  def name=(name)
+    @name = name
+  end
 end
